@@ -1,0 +1,62 @@
+{
+  "app": {
+    "title": "Arithmetic Expression Tree Visualizer",
+    "subtitle": "Enter any arithmetic expression and see it parsed into an interactive tree."
+  },
+  "input": {
+    "label": "Expression",
+    "placeholder": "e.g. (A + B) * C",
+    "generate": "Generate Tree",
+    "clear": "Clear",
+    "examples": "Examples",
+    "loading": "Parsing…"
+  },
+  "tree": {
+    "title": "Expression Tree",
+    "empty": "Enter an expression above and click \"Generate Tree\" to see the visualization.",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "reset": "Reset view",
+    "nodes": "Nodes",
+    "depth": "Depth",
+    "tokens": "Tokens",
+    "type": "Type",
+    "operator": "Operator",
+    "operand": "Operand"
+  },
+  "steps": {
+    "title": "Parsing Steps",
+    "empty": "Parsing steps will appear here after a tree is generated.",
+    "stepLabel": "Step {{n}}"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "position": "Position: {{p}}",
+    "tryAnother": "Try adjusting your expression and generate again.",
+    "codes": {
+      "EMPTY_EXPRESSION": "The expression is empty.",
+      "TOO_LONG": "The expression is too long (max 500 characters).",
+      "INVALID_TYPE": "The expression must be text.",
+      "ILLEGAL_CHARACTER": "The expression contains an illegal character.",
+      "UNBALANCED_PARENTHESES": "The parentheses are not balanced.",
+      "INVALID_NUMBER": "One of the numbers is invalid.",
+      "SYNTAX_ERROR": "The expression has a syntax error.",
+      "INVALID_BODY": "The request body is invalid.",
+      "NETWORK_ERROR": "Could not reach the server.",
+      "INTERNAL_ERROR": "Internal server error.",
+      "UNKNOWN": "Unknown error."
+    }
+  },
+  "developer": {
+    "title": "Developer",
+    "name": "Mousa Alawad",
+    "role": "Full-Stack Developer",
+    "github": "GitHub",
+    "instagram": "Instagram",
+    "telegram": "Telegram"
+  },
+  "language": {
+    "toggle": "العربية",
+    "current": "English"
+  }
+}

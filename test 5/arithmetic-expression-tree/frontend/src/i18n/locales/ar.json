@@ -1,0 +1,62 @@
+{
+  "app": {
+    "title": "مُصوِّر شجرة التعبيرات الحسابية",
+    "subtitle": "أدخل أي تعبير حسابي واستعرضه كشجرة تفاعلية منظمة."
+  },
+  "input": {
+    "label": "التعبير",
+    "placeholder": "مثال: (A + B) * C",
+    "generate": "إنشاء الشجرة",
+    "clear": "مسح",
+    "examples": "أمثلة",
+    "loading": "جارٍ التحليل…"
+  },
+  "tree": {
+    "title": "شجرة التعبير",
+    "empty": "أدخل تعبيرًا في الأعلى ثم اضغط «إنشاء الشجرة» لعرض التصوّر.",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "reset": "إعادة الضبط",
+    "nodes": "العقد",
+    "depth": "العمق",
+    "tokens": "الرموز",
+    "type": "النوع",
+    "operator": "مُعامِل",
+    "operand": "مُعامَل"
+  },
+  "steps": {
+    "title": "خطوات التحليل",
+    "empty": "ستظهر خطوات التحليل هنا بعد إنشاء الشجرة.",
+    "stepLabel": "الخطوة {{n}}"
+  },
+  "error": {
+    "title": "حدث خطأ ما",
+    "position": "الموضع: {{p}}",
+    "tryAnother": "عدّل التعبير ثم أعد المحاولة.",
+    "codes": {
+      "EMPTY_EXPRESSION": "التعبير فارغ.",
+      "TOO_LONG": "التعبير طويل جدًا (الحد 500 حرف).",
+      "INVALID_TYPE": "يجب أن يكون التعبير نصًا.",
+      "ILLEGAL_CHARACTER": "يحتوي التعبير على رمز غير مسموح.",
+      "UNBALANCED_PARENTHESES": "الأقواس غير متوازنة.",
+      "INVALID_NUMBER": "أحد الأرقام غير صالح.",
+      "SYNTAX_ERROR": "خطأ في صياغة التعبير.",
+      "INVALID_BODY": "طلب غير صالح.",
+      "NETWORK_ERROR": "تعذّر الوصول إلى الخادم.",
+      "INTERNAL_ERROR": "خطأ داخلي في الخادم.",
+      "UNKNOWN": "خطأ غير معروف."
+    }
+  },
+  "developer": {
+    "title": "المطوّر",
+    "name": "موسى العوض",
+    "role": "مطوّر تطبيقات متكاملة",
+    "github": "GitHub",
+    "instagram": "Instagram",
+    "telegram": "Telegram"
+  },
+  "language": {
+    "toggle": "English",
+    "current": "العربية"
+  }
+}
