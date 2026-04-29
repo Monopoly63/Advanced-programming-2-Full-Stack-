@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "Arithmetic Expression Tree Visualizer",
+    "subtitle": "Enter any arithmetic expression and see it parsed into an interactive tree."
+  },
+  "nav": {
+    "tagline": "Parse · Visualize · Understand",
+    "workspace": "Workspace",
+    "features":  "Features",
+    "how":       "How it works",
+    "developer": "Developer",
+    "launch":    "Launch app"
+  },
+  "hero": {
+    "badge":        "Real-time expression parsing",
+    "headline1":    "Turn any expression",
+    "headline2":    "into a beautiful tree",
+    "subtitle":     "A senior-grade tokenizer, recursive-descent parser and interactive D3 renderer — wrapped in a premium Web3-inspired interface.",
+    "ctaPrimary":   "Open workspace",
+    "ctaSecondary": "See how it works"
+  },
+  "stats": {
+    "nodes":  "Nodes",
+    "depth":  "Depth",
+    "tokens": "Tokens",
+    "steps":  "Steps",
+    "live":   "Live from last parse",
+    "ready":  "Waiting for input"
+  },
+  "workspace": {
+    "eyebrow":  "Live workspace",
+    "title":    "Parse. Visualize. Inspect.",
+    "subtitle": "Type an expression, launch the parser, and pan / zoom the resulting tree — every step is traced."
+  },
+  "features": {
+    "eyebrow":  "Core engine",
+    "title":    "Built with a production-grade pipeline",
+    "subtitle": "From raw text to an interactive tree, every layer is intentional and observable.",
+    "tokenizer": {
+      "title": "Smart tokenizer",
+      "desc":  "Scans identifiers, numbers and operators with precise position tracking for actionable error messages."
+    },
+    "parser": {
+      "title": "Recursive-descent parser",
+      "desc":  "Honors precedence and right-associative exponent, yielding a clean AST plus step-by-step trace."
+    },
+    "visualizer": {
+      "title": "Interactive D3 renderer",
+      "desc":  "React owns the DOM — D3 computes layout & zoom. Smooth, accessible, RTL-aware."
+    }
+  },
+  "how": {
+    "eyebrow":  "How it works",
+    "title":    "Four crisp stages, zero magic",
+    "subtitle": "Full transparency from keystroke to rendered node.",
+    "step1": { "title": "Input",     "desc": "Type or pick from curated examples in the input panel." },
+    "step2": { "title": "Tokenize",  "desc": "The expression is scanned into typed tokens with positions." },
+    "step3": { "title": "Parse",     "desc": "A recursive-descent parser builds the AST and emits trace steps." },
+    "step4": { "title": "Visualize", "desc": "D3 lays out the tree, React renders every node with hover hints." }
+  },
+  "cta": {
+    "eyebrow":  "Ready when you are",
+    "title":    "Drop in an expression — we'll handle the rest",
+    "subtitle": "No installs, no sign-ups. Just paste, parse, and explore.",
+    "primary":   "Open workspace",
+    "secondary": "View on GitHub"
+  },
+  "footer": {
+    "about":   "A premium full-stack visualizer for arithmetic expression trees, designed with a Web3-grade aesthetic.",
+    "locale":  "English · عربي supported",
+    "built":   "Crafted with React, Express, D3 & Tailwind.",
+    "product":   { "title": "Product",   "workspace": "Workspace", "features": "Features", "how": "How it works" },
+    "resources": { "title": "Resources", "grammar":   "Grammar",   "examples": "Examples", "github": "GitHub" },
+    "contact":   { "title": "Contact" }
+  },
+  "input": {
+    "label":       "Expression",
+    "placeholder": "e.g. (A + B) * C",
+    "generate":    "Generate tree",
+    "clear":       "Clear",
+    "examples":    "Try an example",
+    "loading":     "Parsing…"
+  },
+  "tree": {
+    "title":    "Expression Tree",
+    "empty":    "Enter an expression above and click \"Generate tree\" to see the visualization.",
+    "zoomIn":   "Zoom in",
+    "zoomOut":  "Zoom out",
+    "reset":    "Reset view",
+    "nodes":    "Nodes",
+    "depth":    "Depth",
+    "tokens":   "Tokens",
+    "type":     "Type",
+    "operator": "Operator",
+    "operand":  "Operand"
+  },
+  "steps": {
+    "title":     "Parsing Steps",
+    "empty":     "Parsing steps will appear here after a tree is generated.",
+    "stepLabel": "Step {{n}}"
+  },
+  "error": {
+    "title":      "Something went wrong",
+    "position":   "Position: {{p}}",
+    "tryAnother": "Try adjusting your expression and generate again.",
+    "codes": {
+      "EMPTY_EXPRESSION":      "The expression is empty.",
+      "TOO_LONG":              "The expression is too long (max 500 characters).",
+      "INVALID_TYPE":          "The expression must be text.",
+      "ILLEGAL_CHARACTER":     "The expression contains an illegal character.",
+      "UNBALANCED_PARENTHESES":"The parentheses are not balanced.",
+      "INVALID_NUMBER":        "One of the numbers is invalid.",
+      "SYNTAX_ERROR":          "The expression has a syntax error.",
+      "INVALID_BODY":          "The request body is invalid.",
+      "NETWORK_ERROR":         "Could not reach the server.",
+      "INTERNAL_ERROR":        "Internal server error.",
+      "UNKNOWN":               "Unknown error."
+    }
+  },
+  "developer": {
+    "title":     "Developer",
+    "name":      "Mousa Alawad",
+    "role":      "Full-Stack Developer",
+    "github":    "GitHub",
+    "instagram": "Instagram",
+    "telegram":  "Telegram"
+  },
+  "language": {
+    "toggle":  "العربية",
+    "current": "English"
+  }
+}
